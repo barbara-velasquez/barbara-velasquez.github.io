@@ -1,0 +1,96 @@
+body{
+    margin: 50px 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    height: 80%;
+    padding: 10%;
+    background-image: url("../img/banner.jpg");
+    background-size: 100%;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 6rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 0px 20px;
+    height: 100px;
+    width: max-content;
+    
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 5px 0px;
+
+}
+main{
+    padding: 0% 2%;
+}
+
+.breadcrumb{
+    padding: 3% 0% 0% 5%;
+}
+
+.caja-productos{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.producto{
+    flex-grow: 1;
+    line-height: initial;
+    align-self: auto;
+}
+
+.producto-img{
+    width: 300px;
+    height: 200px;
+}
+
+.boton{
+    display: block;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 20px 0px;
+    padding: 15px;
+    width: max-content;
+    color: seashell;
+    background-color: rgb(80, 27, 104);
+}
+
+.boton:hover{
+    display: block;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 20px 0px;
+    padding: 13px;
+    width: max-content;
+    border-style: dashed;
+    border-color: rgb(80, 27, 104);
+    border-width: 2px;
+    color: rgb(80, 27, 104);
+    background-color: seashell;
+}
+
+footer{
+    background-color: lavender;
+    text-align: center;
+    padding: 5%;
+    font-family: 'Roboto Slab', serif;
+}

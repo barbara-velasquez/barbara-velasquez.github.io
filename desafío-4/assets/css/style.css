@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #707070;
+}
+.bg-cuppon {
+    background-color: #28A745;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255);
+    text-decoration: underline;
+}
+.active-alt{
+    color: rgba(255, 255, 255);
+}
+.disabled-alt {
+    color: rgba(255, 255, 255, 0.4)
+}
+.disabled-alt:hover{
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+}
+
+.card h5{
+    color: #212529;
+    font-weight: 300;
+    font-size: 20pt;
+}
+
+.place{
+    font-size: 16pt;
+}
+
+.location{
+    font-size: 13pt;
+}
+
+.pricing-before{
+    color: #707070;
+    font-size: 16pt;
+}
+
+.pricing-after{
+    color: #28A745;
+    font-weight: 500;
+    font-size: 20pt;
+}
+
+footer h2{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 21pt;
+}
+footer .form-control{
+    font-weight: 300;
+}
+
+footer p{
+    font-size: 16pt;
+}

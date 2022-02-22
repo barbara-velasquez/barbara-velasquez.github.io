@@ -1,0 +1,96 @@
+body{
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+header h1{
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+header .bg-header{
+    background-image: url(../img/bg-header.jpg);
+    background-size: 100%;
+    height: 727px;
+    width: 1280px;
+}
+
+.desc-section, .galeria{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    align-items: center;
+    margin: 50px 150px;
+}
+
+.desc-section div{
+    padding: 30px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.desc-section img{
+    width: 399px;
+    height: 237px;
+    padding: 30px;
+    display: inline-block;
+}
+
+.icons-section{
+    height: 348px;
+    background-color: #1E1A13;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.icons-section h2{
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.icons-section div{
+    display: flex;
+    padding: 0px 80px;
+}
+
+.item{
+    flex-direction: column;
+}
+
+.galeria img{
+    width: 30%;
+    height: 200px;
+    padding: 0px 10px;
+    object-fit: cover;
+}
+
+footer{
+    background-color: #1E1A13;
+    padding: 30px;
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
