@@ -13,13 +13,13 @@ El sitio está organizado mediante las siguientes páginas y secciones:
     * Proyecto 3 (cuppon.html)
 
 ## Stylesheets relacionadas
-En general, todas las páginas están enlazadas a hojas de estilo de Bootstrap y una página local de estilo, no obstante, las páginas de proyecto adicionalmente se encuentran relacionadas a páginas de estilo propias. A continuación, se adjunta una tabla con el detalle:
+En general, todas las páginas están enlazadas a hojas de estilo de Bootstrap, pero además, se hayan enlazadas localmente a: una página de reseteo (reset.css) y otra general de estilos (style.css), no obstante, las páginas de proyecto adicionalmente se encuentran relacionadas a páginas de estilo propias. A continuación, se adjunta una tabla con el detalle:
 
 | Página | Stylesheets enlazadas |
 | ------ | -------------------- |
-| index.html | style.css |
-| portafolio.html | style.css |
-| primer-landing.html | style.css + landing.css |
-| iguana-page.html | style.css + iguana.css |
-| cuppon.html | style.css + cuppon.css |
+| index.html | reset.css + style.css |
+| portafolio.html | reset.css + style.css |
+| primer-landing.html | reset.css + style.css + landing.css |
+| iguana-page.html | reset.css + style.css + iguana.css |
+| cuppon.html | reset.css + style.css + cuppon.css |
 
