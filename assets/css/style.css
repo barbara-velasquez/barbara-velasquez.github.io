@@ -1,6 +1,7 @@
 body{
-    font-family: 'Roboto',sans-serif;
-    font-weight: 300;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
 }
 
 .logo{
@@ -10,4 +11,43 @@ body{
 
 .rrss{
     height: 2rem;
+}
+
+.banner-cv{
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    padding: 10%;
+}
+.banner-cv h1{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: right;
+    padding: 0px 20px;
+    height: max-content;
+    width: max-content;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.banner-cv p{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: right;
+    padding: 0px 20px;
+    height: max-content;
+    width: max-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.cv h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px 0px;
 }
