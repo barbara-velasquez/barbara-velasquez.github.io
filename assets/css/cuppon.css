@@ -7,17 +7,13 @@ body{
     background-color: #28A745;
 }
 
-.navbar-toggler-icon{
-    color: #fff;
-}
-
-.nav-link {
+.cuppon .nav-link {
     color: rgba(255, 255, 255, 0.8);
     font-weight: 500;
 }
 
-.nav-link:hover {
-    color: rgba(255, 255, 255);
+.cuppon .nav-link:hover {
+    color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 .active-alt{

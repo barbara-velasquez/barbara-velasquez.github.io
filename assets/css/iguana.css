@@ -97,4 +97,6 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
+    color: #FFFFFF;
+    font-weight: 500;
 }
